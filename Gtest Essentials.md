@@ -8,7 +8,7 @@ Google Test is a xUnit C++ testing framework, All the xUnits have the same basic
 
 
 
-![image-20230426213959972](E:\GoogleTestRep\xUnit test framework architecture)
+![image-20230426213959972](xUnit test framework architecture)
 
 - The TestSuite acts as a container for TestCase(s)
 - A unit test is structured into a TestCase
@@ -31,7 +31,7 @@ Google Test is a xUnit C++ testing framework, All the xUnits have the same basic
 
 **Arrange:** Verifies that the expected outcome of the method under test have occurred.
 
-![image-20230426214825602](E:\GoogleTestRep\xUnit TestCase Architecture)
+![image-20230426214825602](xUnit TestCase Architecture)
 
 ### GOOGLE TEST CHARACTERISTICS
 
@@ -61,17 +61,17 @@ Google Test is a xUnit C++ testing framework, All the xUnits have the same basic
 
 #### Fatal and Non-fatal Assertions
 
-![image-20230426221023718](E:\GoogleTestRep\Fatal-NonFatal Assertions)
+![image-20230426221023718](Fatal-NonFatal Assertions)
 
 #### Fatal and non-fatal floating points Assertions.
 
 
 
-![image-20230426221219568](E:\GoogleTestRep\fatal-nonfatal-floating point)
+![image-20230426221219568](fatal-nonfatal-floating point)
 
 #### Fatal and non-fatal Exception Assertions.
 
-![image-20230426221512050](E:\GoogleTestRep\Exception Assertions)
+![image-20230426221512050](Exception Assertions)
 
 - Use the << operator or a series of similar operators to feed a custom failure message into the macro
 
@@ -95,7 +95,7 @@ Google Test is a xUnit C++ testing framework, All the xUnits have the same basic
 
 ##### Test Fixture structure and executing process.
 
-![image-20230426222732463](E:\GoogleTestRep\Test Fixture structure)
+![image-20230426222732463](Test Fixture structure)
 
 > SetUp() method guaranteed to be run before each and every test case
 
@@ -107,4 +107,4 @@ Google Test is a xUnit C++ testing framework, All the xUnits have the same basic
 
 #### Test Fixture in Google Test Framework.
 
-![image-20230426223125252](E:\GoogleTestRep\TestFixture Example)
+![image-20230426223125252](TestFixture Example)
