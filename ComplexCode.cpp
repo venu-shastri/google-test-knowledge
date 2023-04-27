@@ -1,4 +1,9 @@
+/*
+The objective of the code is to monitor battery temperature and prevent damage:
 
+Classify the temperature measurement as being too high or too low. This classification depends on the type of cooling. With active cooling, the battery can reach higher temperatures before taking action.
+Transmit the classification to take action: When the system has a controller, send the classification to it. In the absence of a controller, send the classification via email. In this project, the transmission is 'simulated' by printing on the console.
+*/
 #include <stdio.h>
 
 typedef enum {
