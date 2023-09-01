@@ -8,7 +8,7 @@ Google Test is a xUnit C++ testing framework, All the xUnits have the same basic
 
 
 
-![image-20230426213959972](E:\GoogleTestRep\xUnit test framework architecture)
+![image-20230426213959972](xUnit test framework architecture)
 
 - The TestSuite acts as a container for TestCase(s)
 - A unit test is structured into a TestCase
@@ -31,7 +31,7 @@ Google Test is a xUnit C++ testing framework, All the xUnits have the same basic
 
 **Assert:** Verifies that the expected outcome of the method under test have occurred.
 
-![image-20230426214825602](E:\GoogleTestRep\xUnit TestCase Architecture)
+![image-20230426214825602](xUnit TestCase Architecture)
 
 
 
@@ -39,7 +39,7 @@ Google Test is a xUnit C++ testing framework, All the xUnits have the same basic
 
 ## C++ Unit Testing Frameworks comparison.
 
-![image-20230427214910346](E:\google-test-knowledge\test_frameworks_comparison)
+![image-20230427214910346](test_frameworks_comparison)
 
 ### GOOGLE TEST CHARACTERISTICS
 
@@ -69,17 +69,17 @@ Google Test is a xUnit C++ testing framework, All the xUnits have the same basic
 
 #### Fatal and Non-fatal Assertions
 
-![image-20230426221023718](E:\GoogleTestRep\Fatal-NonFatal Assertions)
+![image-20230426221023718](Fatal-NonFatal Assertions)
 
 #### Fatal and non-fatal floating points Assertions.
 
 
 
-![image-20230426221219568](E:\GoogleTestRep\fatal-nonfatal-floating point)
+![image-20230426221219568](fatal-nonfatal-floating point)
 
 #### Fatal and non-fatal Exception Assertions.
 
-![image-20230426221512050](E:\GoogleTestRep\Exception Assertions)
+![image-20230426221512050](Exception Assertions)
 
 - Use the << operator or a series of similar operators to feed a custom failure message into the macro
 
@@ -103,7 +103,7 @@ Google Test is a xUnit C++ testing framework, All the xUnits have the same basic
 
 ##### Test Fixture structure and executing process.
 
-![image-20230426222732463](E:\GoogleTestRep\Test Fixture structure)
+![image-20230426222732463](Test Fixture structure)
 
 > SetUp() method guaranteed to be run before each and every test case
 
@@ -115,7 +115,7 @@ Google Test is a xUnit C++ testing framework, All the xUnits have the same basic
 
 #### Test Fixture in Google Test Framework.
 
-![image-20230426223125252](E:\GoogleTestRep\TestFixture Example)
+![image-20230426223125252](TestFixture Example)
 
 
 
@@ -130,7 +130,7 @@ Google Test is a xUnit C++ testing framework, All the xUnits have the same basic
 
 #### Isolating Dependencies in Tests Using Fake Implementations
 
-![image-20230427212143974](E:\google-test-knowledge\isolate_dependencies)
+![image-20230427212143974](isolate_dependencies)
 
 
 
@@ -140,7 +140,7 @@ Google Test is a xUnit C++ testing framework, All the xUnits have the same basic
 
 
 
-![image-20230427212453630](E:\google-test-knowledge\test_doubles)
+![image-20230427212453630](test_doubles)
 
 > `mock` objects were considered to replace real implementation with a fake one that mimics the real dependency and returns the values that the tester tells it to and behaves the way need it to behave for the test to pass
 
@@ -171,11 +171,11 @@ Google Test is a xUnit C++ testing framework, All the xUnits have the same basic
 
 - Use `EXPECT_CALL` to set some behavior 
 
-![image-20230427213756215](E:\google-test-knowledge\expect_call_maro)
+![image-20230427213756215](expect_call_maro)
 
 #### Google Mock Actions
 
-![image-20230427214024334](E:\google-test-knowledge\mock_actions)
+![image-20230427214024334](mock_actions)
 
 #### GOOGLE MOCK: VERIFYING BEHAVIOR:
 
@@ -183,7 +183,7 @@ Google Test is a xUnit C++ testing framework, All the xUnits have the same basic
 
 EXPECT_CALL enables setting behavior on fake object and defining what should happen when a method is called either invoke a different method, return a value, or throw an exception, it also tells google mock to verify that the method we expecting to be called did in fact occurred during a unit test run
 
-![image-20230427214340165](E:\google-test-knowledge\expect_call_behavior)
+![image-20230427214340165](expect_call_behavior)
 
 - We can specify additional multi-argument matchers using `With`
 - `Times` : explicitly specify how many times we expect a method to be called
