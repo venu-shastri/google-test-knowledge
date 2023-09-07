@@ -30,3 +30,23 @@ string convert(unsigned int arabic)
    return roman;
 }
 
+/* TEST DATA */
+/*
+1 "I"
+2 "II"
+3 "III"
+4 "IV"
+5  "V"
+10 "X"
+11  "XI"
+12  "XII"
+13  "XIII"
+20  "XX"
+50  "L"
+80  "LXXX"
+100 "C"
+288  "CCLXXXVIII"
+2999 "MMCMXCIX"
+3447 "MMMCDXLVII"
+1513  "MDXIII"
+   */
